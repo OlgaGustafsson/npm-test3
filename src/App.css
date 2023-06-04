@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.generateExtendedGreeting, .generateGreeting {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  font-size: 18px;
+  /* background-color: rgb(245, 245, 177); */
+  margin: 10px;
+}
+
+.generateExtendedGreeting:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(245, 245, 177);
+}
+
+.generateGreeting:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(245, 245, 177);
+}
